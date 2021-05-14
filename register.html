@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+	<style>
+		.form-font{
+			font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: #4d4d4d;
+			background-color: lightblue;
+
+		}
+		h1 {
+			font-family: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color:gray;
+			font-weight: 50;
+			font-style:bold;
+		}
+		body {
+			padding: 15px;
+			margin: 0;
+			background: linear-gradient(45deg,skyblue, #80ffb0);
+		}
+		form{
+			display: block;
+			width: 50%;
+			padding: 15px;
+			margin: 0 auto;
+			background-color: white;
+			border-radius: 15px;
+			box-shadow: 0 0 5px gray;
+		}
+		input{
+			padding: 10px;
+			margin: 10px 0;
+			width: 100%;
+			border-radius: 5px;
+			border: 1px solid gray;
+			
+		}
+		textarea{
+			padding: 10px;
+			margin: 10px 0;
+			width: 100%;
+			border-radius: 5px;
+			border: 1px solid gray;
+			
+
+		}
+		button{
+			padding: 10px 20px;
+			border-radius: 10px;
+			background-color: skyblue;
+			color: white;
+			border: none;
+			font-size: 1rem;
+			display: block;
+			margin: 0 auto;
+		}
+		button:hover{
+			background-color: #80ffb0;
+		}
+		input:focus{
+            outline: none !important;
+			border: 1px solid skyblue;
+		    box-shadow: 0 0 10px #80ffb0;
+		}
+
+	</style>
+<body>
+	<h1 style="text-align:center;" >Registration Form</h1>
+	<form action='\blank' class="form-font">
+		<label > <strong>Confrence Name:</strong></label> <br>
+ 		<input type="text" name="fname"> <br>
+
+	<label style="display:inline-block; margin: 10px 0;"><strong>Select confrence Type</strong></label>
+	<select name="type">
+		<option value="Seminar">Seminar</option>
+		<option value="Educational">Educational</option>
+        <option value="Global">Global</option>
+        <option value="Conventional">Conventional</option>
+	</select>
+
+    <br>
+	<label style="display:inline-block; margin: 10px 0;"><strong>mode of handling </strong></label>
+	<select name="type">
+		<option value="Online">Online</option>
+		<option value="Offline">Offline</option>
+	</select>
+
+	<br>
+	<label for="address"><b>Organisation Address:</b></label> <br>
+		<input type="text" placeholder="Address" id="Address" name="Address" required>
+	<br>
+	<label for="email"><b>Email:</b></label> <br>
+		<input type="email" placeholder="Email" id="email" name="email" required>
+        <br>
+        <label for="website"><b>Website</b></label> <br>
+            <input type="link" placeholder="link" id="link" name="link" required>
+	<div class="form-row">
+		<label for="website"><b>Description</b></label>
+				<div class="form-group col-sm-12">
+				  <textarea class="form-control" rows="6" cols="102"></textarea>
+				</div>
+	</div>
+	
+	<p style="margin: 0">I Agree To Terms And Conditions: <input style="width: auto; padding: 0" type="checkbox" name="agree" required></p><br>
+		<button type="submit" value="submit">Submit</button>
+
+	</form>
+</body>
+</html>
