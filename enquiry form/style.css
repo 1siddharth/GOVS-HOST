@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg,skyblue, #80ffb0);
+}
+#enq-form{
+    font-family: sans-serif;
+    
+}
+#form label,input{
+    display: block;
+    
+}
+#form button{
+    display: block;
+    margin: 30px 0;
+    cursor: pointer;
+    background-color: #666;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+#form button:hover{
+    color: white;
+    background-color: #000;
+}
+#enq-form h2{
+    text-align: center;
+    margin: 60px 0;
+}
+#form h2{
+    margin: 40px 0;
+    padding: 12px 50px;
+
+}
+#form{
+    margin: 60px 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#form input{
+    padding: 5px 50px;
+}
+#form label{
+    margin: 12px 0;
+}
+.option{
+    padding: 5px 50px;
+}
+.details{
+    padding: 12px 50px;
+}
+@media only screen and (max-width: 600px) {
+   #form{
+       margin: 10px 0;
+   } 
+  }
+  
