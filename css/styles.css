@@ -36,7 +36,6 @@
     position: relative;
     top: 10px;
 }
-
 .conf_details:last-child {
     margin-bottom: 20px;
 }
@@ -102,4 +101,49 @@
 .speakers figure figCaption {
     text-align: center;
     font-weight: 700;
+}
+/*======================Responsive======================*/
+@media screen and (max-width: 1250px) {
+    .reg_conf {
+        margin: 20px 0 0 120px;
+    }
+}
+@media screen and (max-width: 900px) {
+    #conf_infoCard {
+        height: 180vh;
+        background: rgb(240, 240, 240);
+    }
+    .conf_info {
+        display: block;
+    }
+    .conf_imgBx img {
+        max-width: 770px;
+    }
+    .conf_dates {
+         text-align: center;
+    }
+    .conf_name, .conf_company {
+        margin-left: 10px;
+    }
+    .reg_conf {
+        margin: 20px 0 0 260px;
+    }
+    .conf_details {
+        top: -20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #conf_infoCard {
+        height: 130vh;
+        background: rgb(240, 240, 240);
+    }
+    .conf_imgBx img {
+        max-width: 345px;
+    }
+    .conf_name {
+        font-size: 1.8rem;
+    }
+    .reg_conf {
+        margin: 20px 0 0 60px;
+    }
 }
