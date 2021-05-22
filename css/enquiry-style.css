@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+#enq-form{
+    font-family: sans-serif;
+    background: black
+    
+}
+#form label,input{
+    display: block;
+    
+}
+#form button{
+    display: block;
+    margin: 30px 0;
+    cursor: pointer;
+    background-color: rgb(194, 130, 130);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+#form button:hover{
+    color: white;
+    background-color: rgb(161, 93, 93);
+}
+#enq-form h2{
+    text-align: center;
+    margin: 60px 0;
+    color: rgb(167, 161, 161);
+}
+#form h2{
+    margin: 40px 0;
+    padding: 12px 50px;
+    color: rgb(184, 178, 178);
+
+}
+#form{
+    margin: 60px 90px;
+    border: 1px solid rgb(121, 112, 112);
+    border-radius: 10px;
+    color: rgb(172, 167, 167)
+}
+
+#h2{
+    color: cornsilk;
+}
+#form input{
+    padding: 5px 50px;
+}
+#form label{
+    margin: 12px 0;
+}
+.option{
+    padding: 5px 50px;
+}
+.details{
+    padding: 12px 50px;
+}
+@media only screen and (max-width: 600px) {
+   #form{
+       margin: 10px 0;
+   } 
+  }
+  
